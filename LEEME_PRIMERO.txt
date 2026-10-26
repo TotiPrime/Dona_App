@@ -1,0 +1,39 @@
+DONAAPP - VERSION DIRECTA PARA GITHUB PAGES
+
+1. Extrae este ZIP.
+2. Sube TODO EL CONTENIDO de la carpeta DonaApp_GitHub_Directo al repositorio.
+   Deben quedar index.html y assets en la raiz, junto a frontend y backend.
+3. En GitHub abre Settings > Pages.
+4. Selecciona Source: Deploy from a branch, Branch: main, Folder: /(root).
+5. Guarda y espera a que termine la publicacion.
+
+Para TotiPrime/DonaApp la URL es https://totiprime.github.io/DonaApp/
+La misma version tambien funciona en otros nombres de repositorio.
+
+No necesitas Render, variables de entorno ni comandos de compilacion para esta entrega.
+La seleccion de Pages se realiza una vez en GitHub, no dentro del codigo.
+
+DATOS DE PRUEBA
+Admin: admin@donaapp.com
+Donante: donante@donaapp.com
+Organizacion: orfanato@donaapp.com
+Contrasena de las tres: Demo2026!
+Tambien puedes elegir la cuenta en la pantalla Ingresar.
+
+ALCANCE
+Es una demostracion que guarda datos e imagenes en IndexedDB, dentro del navegador.
+Para revisar un aporte como administrador, cierra la sesion de donante y abre la
+cuenta admin EN EL MISMO NAVEGADOR y en la misma direccion del sitio.
+Los datos se conservan al recargar. Borrar datos del sitio los elimina.
+Otro equipo, navegador o direccion tiene una base independiente.
+Las cuentas y los permisos son una simulacion local, no seguridad de servidor.
+El backend Express/SQLite original se conserva en backend para despliegues posteriores.
+No se han agregado cobros reales ni inteligencia artificial.
+
+OPCION COMPLETA CON SERVIDOR
+En GitHub: Code > Codespaces > Create codespace on main.
+La configuracion incluida instala y arranca el backend y la web.
+Abre el puerto 5173 en Ports. Usa Express y SQLite en ese entorno.
+Requiere que Codespaces este disponible en tu cuenta y permanezca ejecutandose.
+Tiene cuotas y condiciones de uso de GitHub; no es hosting permanente.
+Las bases de Pages y Codespaces son independientes.

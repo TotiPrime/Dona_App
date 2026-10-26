@@ -1,0 +1,17 @@
+{
+  "name": "DonaApp completa",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:5.2.3-24-bookworm",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "DonaApp con backend y SQLite",
+      "onAutoForward": "openBrowser"
+    },
+    "4000": {
+      "label": "API interna",
+      "onAutoForward": "ignore"
+    }
+  },
+  "postCreateCommand": "bash scripts/setup-codespace.sh",
+  "postStartCommand": "bash scripts/start-codespace.sh"
+}

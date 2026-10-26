@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+*.sqlite
+*.sqlite-*
+backend/src/uploads/*
+!backend/src/uploads/.gitkeep
+
+# Los archivos compilados de la raiz se versionan para Pages.
+!assets/
+!index.html
+!.nojekyll
+
+.codespace-logs/
